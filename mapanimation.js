@@ -14,7 +14,7 @@ const busStops = [
   [-71.118625, 42.374863],
 ];
 
-mapboxgl.accessToken = process.env.mapboxKey;
+mapboxgl.accessToken = process.env.MAPBOX;
 
 // This is the map instance
 let map = new mapboxgl.Map({
