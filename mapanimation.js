@@ -33,6 +33,8 @@ const marker = new mapboxgl.Marker()
 let counter = 0;
 function move() {
   if (counter >= busStops.length){
+    counter = 0;
+    marker.setLngLat(busStops[counter]);
     return;
   }
   
