@@ -1,6 +1,16 @@
-# real-time-bus-tracker
-Simulates a bus route with all of its stops. Once the bus reaches its end destination, it resets.
+# Real-time bus tracker
+Simulates a bus route from MIT to Harvard. Once the bus finishes its route, you can press the `show stops` button again to reset the marker position.
 
+## How to run
+1. pull the project locally
+2. get a Mapbox api key from (here)[https://docs.mapbox.com/help/glossary/access-token/]
+3. add an .env file with the key `MAPBOX` and set its value to your api key
+4. run `index.html`
+
+## Roadmap of future improvements
+- Diversify map options
+- display a timeline of stops
+- let user navigate back and forth between stops
 
 ## License
 MIT License
