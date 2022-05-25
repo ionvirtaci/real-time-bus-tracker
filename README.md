@@ -5,7 +5,7 @@ Simulates a bus route from MIT to Harvard. Once the bus finishes its route, you 
 1. pull the project locally
 2. get a Mapbox api key from [here](https://docs.mapbox.com/help/glossary/access-token/)
 3. add an .env file with the key `MAPBOX` and set its value to your api key
-4. run `index.html`
+4. open `index.html`
 
 ## Roadmap of future improvements
 - Diversify map options
