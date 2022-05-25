@@ -3,7 +3,7 @@ Simulates a bus route from MIT to Harvard. Once the bus finishes its route, you 
 
 ## How to run
 1. pull the project locally
-2. get a Mapbox api key from (here)[https://docs.mapbox.com/help/glossary/access-token/]
+2. get a Mapbox api key from [here](https://duckduckgo.com](https://docs.mapbox.com/help/glossary/access-token/)
 3. add an .env file with the key `MAPBOX` and set its value to your api key
 4. run `index.html`
 
